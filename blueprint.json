@@ -1,0 +1,15 @@
+{
+  "identifier": "aws-subnet",
+  "about": {
+    "title": "AWS Subnet",
+    "explanation": "AWS Subnet"
+  },
+  "configuration": {
+  "vpc_id" : "aws_vpc.main.id",
+    "cidr_block": "",
+      "tags" : {
+      "name" : "something"
+      }
+      
+  }
+}
