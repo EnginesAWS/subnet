@@ -1,5 +1,6 @@
 {
   "identifier": "aws-subnet",
+  "depends_on": "aws-vpc",
   "about": {
     "title": "AWS Subnet",
     "explanation": "AWS Subnet"
