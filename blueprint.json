@@ -5,7 +5,7 @@
     "title": "AWS Subnet",
     "explanation": "AWS Subnet"
   },
-	"provider": {
+	"compute_service": {
 		"default": {"identifier": "subnet"}
 	},
   "configuration": {
