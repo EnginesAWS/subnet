@@ -5,6 +5,9 @@
     "title": "AWS Subnet",
     "explanation": "AWS Subnet"
   },
+	"provider": {
+		"default": {"identifier": "subnet"}
+	},
   "configuration": {
   "vpc_id" : "aws_vpc.main.id",
     "cidr_block": "",
