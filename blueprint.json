@@ -5,6 +5,9 @@
     "title": "AWS Subnet",
     "explanation": "AWS Subnet"
   },
+	"compute_service": {
+		"default": {"identifier": "subnet"}
+	},
   "configuration": {
   "vpc_id" : "",
     "cidr_block": "",
