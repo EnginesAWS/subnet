@@ -6,12 +6,9 @@
     "explanation": "AWS Subnet"
   },
   "configuration": {
-  "vpc_id" : "aws_vpc.main.id",
+  "vpc_id" : "",
     "cidr_block": "",
-    "availability_zone": "set or not present",
-      "tags" : {
-      "name" : "something"
-      }
+    "availability_zone": "set or not present"
       
   }
 }
