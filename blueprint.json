@@ -1,17 +1,17 @@
 {
-  "identifier": "aws-subnet",
-  "depends_on": "aws-vpc",
-  "about": {
-    "title": "AWS Subnet",
-    "explanation": "AWS Subnet"
-  },
+	"identifier": "subnet",
+	"about": {
+		"title": "AWS Subnet",
+		"explanation": "An elementary blueprint for defining an AWS Subnet"
+	},
 	"compute_service": {
 		"default": {"identifier": "subnet"}
 	},
-  "configuration": {
-  "vpc_id" : "",
-    "cidr_block": "",
-    "availability_zone": "set or not present"
-      
-  }
+	"binding_target": {
+		"configuration": {
+			"vpc_id" : "",
+			"cidr_block": "",
+			"availability_zone": ""
+		}
+	}      
 }
